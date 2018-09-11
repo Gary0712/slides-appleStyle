@@ -1,0 +1,31 @@
+*{
+    margin:0; padding:0; box-sizing: border-box;
+    background: #F5F5F5}
+    
+.words{
+    width:100px;
+    height:50;
+}
+.window{
+    width: 920px;
+    height: 400px;
+    border: 1px solid red;
+    margin: 20px auto;
+    overflow: hidden;
+    box-shadow: 3px 3px 3px #DCDCDC;
+    box-shadow: -3px -3px 3px #DCDCDC;
+}
+.images{
+    display: flex;
+    transition: all 1s;
+}
+.images > img{
+    width: 100%;
+}
+body > ul > li > a {
+    display: block;
+}
+li {
+    display: inline-block;
+    text-align: center;
+}
